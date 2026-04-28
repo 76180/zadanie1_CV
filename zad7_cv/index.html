@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang = "pl">
+<head>
+	<meta charset = "utf-8" />
+	<meta name = "viewport" content = "width=device-width, initial-scale=1" />
+	<title>Michał Sarnowski</title>
+	<link id="arkusz-stylow" rel="stylesheet" href="red.css" type="text/css"/>
+<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1 id="naglowek-cv"></h1>
+		<img
+			src="MichalProfil.jpg"
+			alt="Zdjęcie profilowe - Michał Sarnowski"
+			width="160"
+			height="180"
+		/>
+		<div class="buttons">
+			<button onclick="zmienStyl()">Zmień styl</button>
+			<button onclick="przelaczSekcje()" id="pokazLubSchowaj">Pokaż / ukryj sekcje</button>
+		</div>
+	</header>
+	
+	<main>
+		<section class="sekcja">
+			<h2>Kontakt</h2>
+			<address>
+			<p>
+			Telefon:
+			<a href="tel: +48792462505">+48 792 462 505</a>
+			</p>
+
+			<p>
+			E-mail:
+			<a href="mailto:msarnows2@stu.vistula.edu.pl">msarnows2@stu.vistula.edu.pl</a>
+			</p>
+			
+			<p>Miasto: Konstancin-Jeziorna</p>
+			
+			<p>
+			Linki:
+			<a href="https://github.com/76180/zadanie1_CV.git" target="_blank" rel="noopener noreferrer">
+			GitHub
+			</a>
+			\/
+			<a href="https://www.linkedin.com/in/micha%C5%82-sarnowski-395307387/" target="_blank" rel="noopener noreferrer">
+			LinkedIn
+			</a>
+			</p>
+			</address>
+		</section>
+		
+		<section>
+			<h2>Umiejętności</h2>
+			<ul id="lista-umiejetnosci">
+				
+			</ul>
+		
+		<section>
+			<h2 id="naglowek-umiejetnosci">Moje Know-How</h2>
+			<article>
+			<h3 class="tytul-umiejetnosci">Korepetycje z matematyki</h3>
+			<p>
+			Opis: Zajęcia z matematyki dla uczniów szkół podstawowych, średnich.
+			Pomoc w zrozumieniu trudnych zagadnień, przygotowanie do egzaminów oraz rozwijanie umiejętności matematycznych.
+			</p>
+			</article>
+
+			<article>
+				<h3 class="tytul-umiejetnosci">Samodzielna nauka - mini projekty</h3>
+				<p>
+					Opis: Praca w trybie scram przy użyciu programu ClickUp nad wdrażaniem interface'u.
+					Tryb pracy: Daily z podsumowaniem w postaci Retrospektyw.
+				</p>
+			</article>
+		</section>
+
+		<section class="sekcja">
+			<h2 id="naglowek-wyksztalcenia">Wykształcenie</h2>
+			<p id="wyksztalcenie">
+				
+			</p>
+		</section>
+
+		<section>
+			<h2 id="naglowek-projektow">Projekty</h2>
+			<ul id="lista-projektow">
+				
+			</ul>
+		</section>
+	</main>
+	
+	<form onsubmit="return false">
+		<div class="row">
+			<label for="name" class="dane">Imię</label>
+			<input type="text" name="imie" id="name" placeholder="Podaj swoje imię" required>
+		</div>
+		<div class="row">
+			<label for="surname" class="dane">Nazwisko</label>
+			<input type="text" name="nazwisko" id="surname" placeholder="Podaj swoje nazwisko" required>
+		</div>
+		<div class="row">
+			<label for="mail" class="dane">Adres e-mail</label>
+			<input id="mail" type="email" required>
+		</div>
+		<div class="row">
+			<div><label for="wiadomosc">Napisz wiadomość</label></div>
+			<textarea name="wiadomosc" id="wiadomosc" row="5" cols="80" placeholder="Zapisz coś do LocalStorage i wyślij."></textarea>
+			
+		</div>
+		<div class="row">
+			<input type="submit" id="saveToLocalStorage" value="Wyślij" onclick="formularz()">
+			<input type="button" id="wyczyscLocalStorage" value="Wyczyść Storage">
+		</div>
+		<p id="textToLocalStorage"></p>
+	</form>
+	
+	<footer>
+		<p>&copy; 2026 Michał Sarnowski</p>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
