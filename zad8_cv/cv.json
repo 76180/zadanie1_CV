@@ -1,0 +1,24 @@
+{
+  "daneOsobowe": {
+    "imieNazwisko": "Michał Sarnowski",
+    "numerIndeksu": "76180"
+  },
+  "umiejetnosci": [
+    "Matematyka",
+    "Fizyka",
+    "Programowanie (C#, SQL, HTML, CSS, JavaScript)",
+    "Solidworks, AutoCAD",
+    "Komunikacja i praca zespołowa w trybie scram"
+  ],
+  "wyksztalcenie": [
+    "2025 - obecnie: Vistula University, kierunek: Computer Science.",
+    "2024 - 2025: Warsaw University of Life Sciences, kierunek: Computer Science.",
+    "2023 - 2024: Warsaw University of Technology, kierunek: Automatization and Romotization of Production Processes.",
+    "2019 - 2023: Liceum Ogólnokształcące nr 4 w Piasecznie, kierunek: matematyczno-fizyczny."
+  ],
+  "projekty": [
+    "CV w HTML - strona internetowa z Curriculum Vitae",
+    "Analizator laboratoryjny funkcji matematycznej w C#",
+    "Symulator bankomatu i maszyny vendingowej w C#"
+  ]
+}

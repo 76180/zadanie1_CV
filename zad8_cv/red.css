@@ -1,0 +1,46 @@
+body
+{
+	background-color: #900000;
+	color: #fffff0;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+h2
+{
+	color: #9fffff;
+	padding: 10px;
+}
+
+section
+{
+	margin-left: 30px;
+	padding: 25px;
+}
+
+li
+{
+	margin-left: 40px;
+	padding: 5px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 150px;
+}
+
+.row{
+	margin 20px 10px
+}
+
+#wiadomosc{
+	resize: none;
+}
+
+.dane{
+	width: 120px;
+	display: inline-block;
+	text-align: right;
+}
