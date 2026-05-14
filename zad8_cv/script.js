@@ -86,7 +86,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		await saveContactForm();
 	});
 
-	const themeLink = document.getElementById("arkusz-stylow");
+	
+});
+
+
+const themeLink = document.getElementById("arkusz-stylow");
 
 	function zmienStyl() {
 		if (themeLink.getAttribute("href") === "red.css") {
@@ -200,5 +204,3 @@ document.addEventListener('DOMContentLoaded', () => {
 		localStorage.removeItem('textInput');
 		wyswietlDane.textContent = '';
 	})
-
-});
